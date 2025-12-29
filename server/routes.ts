@@ -435,7 +435,7 @@ export async function registerRoutes(
           title: twitterTitle || ogTitle || title || "No title",
           description: twitterDescription || ogDescription || description || "No description",
           image: twitterImage || ogImage,
-          site: twitterSite,
+          site: twitterSite || undefined,
         },
         linkedinPreview: {
           title: ogTitle || title || "No title",
